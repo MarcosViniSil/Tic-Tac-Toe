@@ -23,7 +23,7 @@ function fillField(index) {
             verifyTable()
 
         } else {
-            alert("Campo já preeenchido")
+            alert("Campo já preenchido")
         }
     }
 }
@@ -60,7 +60,7 @@ function verifyTable() {
         resetGame()
         return
     }
-    
+
     if (verifyColumns() != "") {
         showWinner(verifyColumns())
         resetGame()
