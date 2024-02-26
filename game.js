@@ -11,6 +11,7 @@ function showPlayer(isStartedAgain) {
         player.innerHTML = "Vez do jogador 1"
     }
 }
+
 function getIndex(index) {
     fillField(index)
 }
